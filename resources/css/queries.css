@@ -33,8 +33,8 @@
     .works-step:last-of-type { margin-bottom: 60px; }
     
     .app-screen {
-        width: 100%;
-        height: 200px;
+        width: 120%;
+        height: 350px;
 }
     
     .icon-small { 
