@@ -131,9 +131,11 @@
 @media only screen and (max-width:480px) {
     section { padding: 25px 0; }
     .contact-form { width: 100%; }
+    
+    .app-screen {
+        width: 110%;
+        height: 200px;
+    }
 }
 
-.app-screen {
-        width: 110%;
-        height: 400px;
-    }
+
