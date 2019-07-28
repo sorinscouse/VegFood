@@ -134,7 +134,7 @@
     .works-step:last-of-type { margin-bottom: 20px; }
     
     .section-testimonials {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(img/back-customers.jpg);
         background-size: cover;
         color: #fff;
         background-attachment: fixed;
@@ -149,12 +149,12 @@
     .contact-form { width: 100%; }
     
     .app-screen {
-        width: 110%;
-        height: 200px;
+        width: 120%;
+        height: 450px;
     }
     
     .section-testimonials {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(img/back-customers.jpg);
         background-size: cover;
         color: #fff;
         background-attachment: fixed;
