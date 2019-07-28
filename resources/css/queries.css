@@ -134,7 +134,7 @@
     .works-step:last-of-type { margin-bottom: 20px; }
     
     .section-testimonials {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(img/back-customers.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url(img/back-customers.jpg);
         background-size: cover;
         color: #fff;
         background-attachment: fixed;
@@ -150,11 +150,11 @@
     
     .app-screen {
         width: 120%;
-        height: 150px;
+        height: 120px;
     }
     
     .section-testimonials {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(img/back-customers.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url(img/back-customers.jpg);
         background-size: cover;
         color: #fff;
         background-attachment: fixed;
