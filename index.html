@@ -3,15 +3,29 @@
 
 <head>
    
+   <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="VegFood’s mission is to bring healthy, plant-based, locally sourced, and seasonally inspired food to Romanians. We strive to craft every dish rooted in balanced nutritional, utilizing whole, plant-based ingredients.">
    
     <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
     <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400&display=swap" rel="stylesheet" type="text/css">
     <title>VegFood</title>
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/resources/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/resources/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/resources/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/resources/favicons/site.webmanifest">
+    <link rel="mask-icon" href="/resources/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/resources/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/resources/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    
 </head>
 
 <body>
@@ -19,23 +33,25 @@
         <nav>
             <div class="row">
                 <img src="resources/img/logo-white.png" alt="Veg Food logo" class="logo">
-                <ul class="main-nav">
-                    <li><a href="#">Food delivery</a></li>
-                    <li><a href="#">How it works</a></li>
-                    <li><a href="#">Our cities</a></li>
-                    <li><a href="#">Sign up</a></li>
+                <img src="resources/img/logo.png" alt="Veg Food logo" class="logo-black">
+                <ul class="main-nav js--main-nav">
+                    <li><a href="#features">Food delivery</a></li>
+                    <li><a href="#works">How it works</a></li>
+                    <li><a href="#cities">Our cities</a></li>
+                    <li><a href="#plans">Sign up</a></li>
                 </ul>
+                <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
             </div>
         </nav>
         <div class="hero-text-box">
             <h1>Embrace a vegan meal plan. <br> Many healthy menus to get you started!</h1>
-            <a class="btn btn-full" href="#">I’m hungry</a>
-            <a class="btn btn-ghost" href="#">Show me more</a>
+            <a class="btn btn-full js--scroll-to-plans" href="#">I’m hungry</a>
+            <a class="btn btn-ghost js--scroll-to-start" href="#">Show me more</a>
         </div>
 
     </header>
 
-    <section class="section-features">
+    <section class="section-features js--section-features" id="features">
         <div class="row">
             <h2>Plant based food &mdash; not junk food</h2>
             <p class="long-copy">
@@ -44,7 +60,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row js--wp-1">
             <div class="col span-1-of-4 box">
                 <i class="ion-ios-infinite-outline icon-big"></i>
                 <h3>365 days/year</h3>
@@ -129,13 +145,13 @@
         </ul>
     </section>
 
-    <section class="section-steps">
+    <section class="section-steps" id="works">
         <div class="row">
             <h2>How it works &mdash; Select Your Subscription Plan</h2>
         </div>
         <div class="row">
             <div class="col span-1-of-2 steps-box">
-                <img src="resources/img/app-iPhone.png" alt="VegFood app on iPhone" class="app-screen">
+                <img src="resources/img/app-iPhone.png" alt="VegFood app on iPhone" class="app-screen js--wp-2">
             </div>
             <div class="col span-1-of-2 steps-box">
                 <div class="works-step">
@@ -160,7 +176,7 @@
         <div class="row">
             <h2>We're located in these 4 big cities</h2>
         </div>
-        <div class="row">
+        <div class="row js--wp-3">
             <div class="col span-1-of-4 box">
                 <img src="resources/img/bucharest.jpg" alt="Bucharest">
                 <h3>Bucharest</h3>
@@ -254,13 +270,13 @@
         </div>
     </section>
 
-    <section class="section-plans">
+    <section class="section-plans js--section-plans" id="plans">
         <div class="row">
             <h2>Start eating healthy today</h2>
         </div>
         <div class="row">
             <div class="col span-1-of-3">
-                <div class="plan-box">
+                <div class="plan-box js--wp-4">
                     <div>
                         <h3>Premium</h3>
                         <p class="plan-price">399£ <span>/ month</span></p>
@@ -413,8 +429,16 @@
             </p>
         </div>
     </footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/script.js"></script>
 
 </body>
+
 
 </html>
 

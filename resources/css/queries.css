@@ -53,6 +53,7 @@
     .contact-form { width: 80%; }
     
     .section-testimonials {
+        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(img/back-customers.jpg);
         background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
         background-size: cover;
         color: #fff;
@@ -82,6 +83,37 @@
     }
     .main-nav { display: none; }
     
+    .mobile-nav-icon { display: inline-block; }
+    
+    .main-nav {
+        float: left;
+        margin-top: 35px;
+        margin-left: 25px;
+    }
+    
+    .main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    
+    .sticky .main-nav { margin-top: 10px; }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited { padding: 10px 0; }
+    .sticky .mobile-nav-icon  { margin-top: 10px; }
+    .sticky .mobile-nav-icon i { color:#555; }
+
+
+    
+    
+    
     h1 {
     margin-top: 0;
     margin-bottom: 20px;
@@ -99,6 +131,7 @@
         font-weight: 300;
         text-decoration: none;
         border-radius: 200px;
+        -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
         transition: background-color 0.2s, border 0.2s, color 0.2s;
         }
     
@@ -134,6 +167,7 @@
     .works-step:last-of-type { margin-bottom: 20px; }
     
     .section-testimonials {
+        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.9))), url(img/back-customers.jpg);
         background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(img/back-customers.jpg);
         background-size: cover;
         color: #fff;
@@ -154,6 +188,7 @@
     }
     
     .section-testimonials {
+        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.9))), url(img/back-customers.jpg);
         background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(img/back-customers.jpg);
         background-size: cover;
         color: #fff;
